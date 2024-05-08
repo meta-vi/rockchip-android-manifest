@@ -64,14 +64,14 @@
   <project path="device/generic/x86_64" name="TinkerBoard-Android/rockchip-android-device-generic-x86_64" />
   <project path="device/google/atv" name="TinkerBoard-Android/rockchip-android-device-google-atv" />
   <project path="device/google_car" name="TinkerBoard-Android/rockchip-android-device-google_car" />
-  <project path="device/rockchip/common" name="TinkerBoard-Android/rockchip-android-device-rockchip-rksdk" >
+  <project path="device/rockchip/common" name="meta-vi/rockchip-android-device-rockchip-rksdk" >
     <copyfile src=".classpath" dest=".classpath"/>
     <copyfile src="javaenv.sh" dest="javaenv.sh"/>
   </project>
-  <project path="device/rockchip/rk3288" name="TinkerBoard-Android/rockchip-android-device-rockchip-rk3288" />
+  <project path="device/rockchip/rk3288" name="meta-vi/rockchip-android-device-rockchip-rk3288" />
   <project path="device/rockchip/rk3326" name="TinkerBoard-Android/rockchip-android-device-rockchip-rk3326" />
   <project path="device/rockchip/rk3328" name="TinkerBoard-Android/rockchip-android-device-rockchip-rk3328" />
-  <project path="device/rockchip/rk3399" name="TinkerBoard-Android/rockchip-android-device-rockchip-rk3399" />
+  <project path="device/rockchip/rk3399" name="meta-vi/rockchip-android-device-rockchip-rk3399" />
   <project path="device/rockchip/rk356x" name="TinkerBoard-Android/rockchip-android-device-rockchip-rk3566" />
   <project path="device/rockchip/rk356x_box" name="TinkerBoard-Android/rockchip-android-device-rockchip-rk3568_box" />
   <project path="device/sample" name="TinkerBoard-Android/rockchip-android-device-sample" />
@@ -505,7 +505,7 @@
   <project path="hardware/ril" name="TinkerBoard-Android/rockchip-android-hardware-ril" />
   <project path="hardware/rockchip/audio" name="TinkerBoard-Android/rockchip-android-hardware-rk29-audio" />
   <project path="hardware/rockchip/bootctrl" name="TinkerBoard-Android/rockchip-android-hardware-rk29-bootctrl" />
-  <project path="hardware/rockchip/camera" name="TinkerBoard-Android/rockchip-android-hardware-rk29-camera_v3" />
+  <project path="hardware/rockchip/camera" name="meta-vi/rockchip-android-hardware-rk29-camera_v3" />
   <project path="hardware/rockchip/camera_engine_rkisp" name="TinkerBoard-Android/rockchip-android-hardware-rk29-camera_engine_rkisp" />
   <project path="hardware/rockchip/drmservice" name="TinkerBoard-Android/rockchip-android-hardware-rk29-drmservice" />
   <project path="hardware/rockchip/fastbootd" name="TinkerBoard-Android/rockchip-android-hardware-rk29-fastbootd" />
@@ -537,7 +537,7 @@
   <project path="hardware/rockchip/swiftshader" name="TinkerBoard-Android/rockchip-android-hardware-rk29-swiftshader" />
   <project path="hardware/rockchip/thermal" name="TinkerBoard-Android/rockchip-android-hardware-rk29-thermal" />
   <project path="hardware/rockchip/weaver" name="TinkerBoard-Android/rockchip-android-hardware-rk29-weaver" />
-  <project path="kernel" name="TinkerBoard-Android/rockchip-android-kernel" />
+  <project path="kernel" name="meta-vi/rockchip-android-kernel" />
   <project path="kernel/configs" name="TinkerBoard-Android/rockchip-android-kernel-configs" >
     <linkfile src="rockchip/android-11.config" dest="kernel/kernel/configs/android-11.config"/>
     <linkfile src="rockchip/android-11-go.config" dest="kernel/kernel/configs/android-11-go.config"/>
