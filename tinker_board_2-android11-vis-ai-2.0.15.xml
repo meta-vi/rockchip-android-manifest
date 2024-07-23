@@ -19,7 +19,7 @@
   <project path="bootable/recovery/rkupdate" name="TinkerBoard-Android/rockchip-android-bootable-recovery-rk_update" />
   <project path="bootable/recovery/rkutility" name="TinkerBoard-Android/rockchip-android-bootable-recovery-rk_utility" />
   <project path="build/blueprint" name="TinkerBoard-Android/rockchip-android-build-blueprint" />
-  <project path="build/make" name="TinkerBoard-Android/rockchip-android-build" >
+  <project path="build/make" name="meta-vi/rockchip-android-build" >
     <copyfile src="core/root.mk" dest="Makefile"/>
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
@@ -39,7 +39,7 @@
   <project path="developers/samples/android" name="TinkerBoard-Android/rockchip-android-developers-samples-android" />
   <project path="development" name="TinkerBoard-Android/rockchip-android-development" />
   <project path="device/asus/common" name="TinkerBoard-Android/rockchip-android-device-asus-common" />
-  <project path="device/asus/tinker_board" name="TinkerBoard-Android/rockchip-android-device-asus-tinker_board" />
+  <project path="device/asus/tinker_board" name="meta-vi/rockchip-android-device-asus-tinker_board" />
   <project path="device/asus/tinker_board_2" name="meta-vi/rockchip-android-device-asus-tinker_board_2" >
     <linkfile src="mkimage.sh" dest="mkimage.sh"/>
     <linkfile src="build.sh" dest="build.sh"/>
@@ -440,8 +440,8 @@
   <project path="external/zlib" name="TinkerBoard-Android/rockchip-android-external-zlib" />
   <project path="external/zopfli" name="TinkerBoard-Android/rockchip-android-external-zopfli" />
   <project path="external/zxing" name="TinkerBoard-Android/rockchip-android-external-zxing" />
-  <project path="frameworks/av" name="TinkerBoard-Android/rockchip-android-frameworks-av" />
-  <project path="frameworks/base" name="TinkerBoard-Android/rockchip-android-frameworks-base" />
+  <project path="frameworks/av" name="meta-vi/rockchip-android-frameworks-av" />
+  <project path="frameworks/base" name="meta-vi/rockchip-android-frameworks-base" />
   <project path="frameworks/compile/libbcc" name="TinkerBoard-Android/rockchip-android-frameworks-compile-libbcc" />
   <project path="frameworks/compile/mclinker" name="TinkerBoard-Android/rockchip-android-frameworks-compile-mclinker" />
   <project path="frameworks/compile/slang" name="TinkerBoard-Android/rockchip-android-frameworks-compile-slang" />
@@ -519,7 +519,7 @@
   <project path="hardware/rockchip/keymaster4" name="TinkerBoard-Android/rockchip-android-hardware-rk29-keymaster4" />
   <project path="hardware/rockchip/libbaseparameter" name="TinkerBoard-Android/rockchip-android-hardware-rk29-libbaseparameter" />
   <project path="hardware/rockchip/libgralloc/bifrost" name="TinkerBoard-Android/rockchip-android-hardware-libgralloc-bifrost" />
-  <project path="hardware/rockchip/libgralloc/midgard" name="TinkerBoard-Android/rockchip-android-hardware-libgralloc-midgard" />
+  <project path="hardware/rockchip/libgralloc/midgard" name="meta-vi/rockchip-android-hardware-libgralloc-midgard" />
   <project path="hardware/rockchip/libgralloc/utgard" name="TinkerBoard-Android/rockchip-android-hardware-libgralloc-utgard_new" />
   <project path="hardware/rockchip/libgraphicpolicy" name="TinkerBoard-Android/rockchip-android-hardware-rk29-libgraphicpolicy" />
   <project path="hardware/rockchip/libhwjpeg" name="TinkerBoard-Android/rockchip-android-hardware-rk29-libhwjpeg" />
@@ -719,7 +719,7 @@
   <project path="system/chre" name="TinkerBoard-Android/rockchip-android-system-chre" />
   <project path="system/connectivity/wificond" name="TinkerBoard-Android/rockchip-android-system-connectivity-wificond" />
   <project path="system/connectivity/wifilogd" name="TinkerBoard-Android/rockchip-android-system-connectivity-wifilogd" />
-  <project path="system/core" name="TinkerBoard-Android/rockchip-android-system-core" />
+  <project path="system/core" name="meta-vi/rockchip-android-system-core" />
   <project path="system/extras" name="TinkerBoard-Android/rockchip-android-system-extras" />
   <project path="system/gatekeeper" name="TinkerBoard-Android/rockchip-android-system-gatekeeper" />
   <project path="system/gsid" name="TinkerBoard-Android/rockchip-android-system-gsid" />
