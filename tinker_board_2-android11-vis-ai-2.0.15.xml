@@ -803,7 +803,7 @@
   <project path="tools/tradefederation/core" name="TinkerBoard-Android/rockchip-android-tools-tradefederation" />
   <project path="tools/treble" name="TinkerBoard-Android/rockchip-android-tools-treble" />
   <project path="tools/trebuchet" name="TinkerBoard-Android/rockchip-android-tools-trebuchet" />
-  <project path="u-boot" name="TinkerBoard-Android/rockchip-android-u-boot" />
+  <project path="u-boot" name="meta-vi/rockchip-android-u-boot" />
   <project path="vendor/rockchip/common" name="TinkerBoard-Android/rockchip-android-vendor-rockchip-common" />
   <project path="vendor/rockchip/hardware" name="TinkerBoard-Android/rockchip-android-vendor-rockchip-hardware" />
   <project path="vendor/widevine" name="TinkerBoard-Android/rockchip-android-vendor-Widevine" />
